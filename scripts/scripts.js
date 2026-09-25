@@ -45,3 +45,37 @@ const response2 = promet("What is your favorite food?")
 
 
 alert("Thanks " + userName + "Enjoy ypur weekend!")
+
+
+// Arithmetic Operater
+// Basic Operater: +, -, *, 
+// Modulus Operater a % b -> remainder after dividing a by b
+// Exponents: a ** b -> a raised to the b power
+// Increment (++) & Decrement (--): Quick +1 or -1 operations 
+
+let lives = 3 
+lives = lives - 1 
+// console.log(lives) 
+
+// concatenation and template literals
+// concatenation: method for combining strings by adding them
+
+const userName = "Sam" 
+const userAge = 17
+const favoriteSubject = Math
+
+//method 1 concaenation
+const message = Hello my name is " + userName +  "
+
+console.log(message)
+//method 2: template literals
+const messageTwo = `Hello my name is $(userName) and I am $(userAge) years old`
+console.log (messageTwo)
+
+// Multi-Lines String without \n
+const bio = ``
+=== USER PROFILE ===
+Name: ${userName}
+Age:${userAge} 
+``
+console.log(bio) 
