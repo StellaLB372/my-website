@@ -1,4 +1,12 @@
+.header-link {
+    background-color: #ff0022;
+}
+
 p {
     background-color:blueviolet;
     color:rgb(0, 0, 0);
+}
+
+a{ 
+    text-decoration: none;
 }
