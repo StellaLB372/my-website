@@ -1,0 +1,66 @@
+            <form action="POST">
+                <p>Radio Buttons</p>
+                <input type="Radio" id="email" name="contact" value="email">
+                <!-- type for="email" Signup.html -->
+                <p>How do you get to school</p>
+                <select name="How do you get to school?" id="How do you get to school?">
+                    <option value="Walk">Walk</option>
+                    <option value="Bus">Bus</option>
+                    <option value="Car">Car</option> 
+                </select>
+
+                <!-- checkboxes -->
+                <p>Select your skills</p>
+                <input type="checkbox" name="skills" id="html" value="html" checkbox>
+
+                <p input type="checkbox"  What are your favorite hobbies p>
+                <option value="Gaming">Gaming</option>
+                <option value="Sports">Sports</option>
+                <option value="Music">Music</option>  
+                <option value="Coding">Coding</option>
+
+                <a href="recipe-project/recipe-home.html"></a>
+
+                <!-- Text Area -->
+                <div>
+                    <label for="Message">Your Message:</label>
+                    <textarea name="message" value="message" id="message" rows="10" cols="20"></textarea>
+                </div>
+
+                <!-- Dropdown Menus -->
+                <lable for="car">Choose a car</lable>
+                <select name="car" id="car"></select>
+                <options value="volvo">Volvo</options>
+            </form>
+
+            <!-- HTML Tables -->
+            <table>
+                <!-- Header Row -->
+                <tr> 
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>School</th>
+                </tr>
+                
+                
+                <tr>
+                    <td>Jane</td>
+                    <td>23</td>
+                    <td>USM</td>
+                </tr>
+                
+            </table>
+
+            <br>
+
+            <form action="" method=""POST>
+                <label for="fullName">Full Name</label>
+                <input type="text", id="fullName" name="fullName" placeholder="Your Name">
+
+
+                <!-- Email Box -->
+                <label for="userEmail">Email Address</label>
+                <input type="email" name="userEmail" id="userEmail" placeholder="Email" required>
+                
+                <button type="submit">Send Message</button>
+            </form>

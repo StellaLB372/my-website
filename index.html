@@ -1,109 +1,89 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<head>
-   <script src="scripts/scripts.js" defer></script> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="style.css">
-    <style>
-       
-    p {
-        color:rgb(139, 0, 44);
-    }    
-    </style>
-</head>
-<body>
-    <header>
-        <a href="recipe-project/recipe-home.html">recipe-home</a>
-        <a href="schedule.html">schedule</a>
-        <a href="images/16937953_1080_1920_30fps.mp4">Cat Video</a>
-        <a href="projects/news.html">News</a>
-        <a href="projects/movies.html">Movies</a>
-        <a href="https://www.google.com/">Google search</a>
-        <a href="https://www.tutorialrepublic.com/">Tutorial Republic</a>
-        <a href="https://www.google.com/ ">target _blank google</a>
-    </header> 
-
-
-    
-
-<form action="POST">
-  <p>Radio Buttons</p>
-  <input type="Radio" id="email" name="contact" value="email"
-   type for="email"
-
-   Signup.html
-   <p>How do you get to school</p>
-   <select name="How do you get to school?" id="How do you get to school?"
-   <value value="Walk">Walk</option>
-   <option value="Bus">Bus</option>
-   <option value="Car">Car</option> 
-
- <!-- checkboxes -->
-   <p>Select your skills</p>
- <input type="checkbox" name="skills" id="html" value="html" checkbox>
-
- <p input type="checkbox"  What are your favorite hobbies p>
- <option value="Gaming">Gaming</option>
- <option value="Sports">Sports</option>
- <option value="Music">Music</option>  
- <option value="Coding">Coding</option>
-
- <a href="recipe-project/recipe-home.html"></a>
-
- <!-- Text Area -->
-  <div>
-  <label for="Message">Your Message:</label>
-  <textarea name="message" value="message" id="message"
-  rows="10" cols="20"></textarea>
- </div>
-
- <!-- Dropdown Menus -->
-  <lable for="car">Choose a car</lable>
-<select name="car" id="car"></select>
-<options value="volvo">Volvo</options>
-
-< !-- inline styling --> 
-<p style="color:darkred">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et diam orci. Nunc sodales at lacus eget consequat. In hac habitasse platea dictumst. Suspendisse tincidunt leo a nisi finibus, at vulputate dui pellentesque. Nullam feugiat vestibulum eros, at vulputate ex lacinia id. Phasellus varius urna enim, non ornare nibh ornare ut. Mauris ut malesuada eros, et tempor tortor. Maecenas libero lacus, hendrerit in tincidunt id, sodales non odio. Nullam a scelerisque magna. Sed pellentesque tempor tortor, vitae finibus dui finibus at. In a erat sollicitudin eros gravida tincidunt quis quis nisl. Nulla rutrum vel nisi et malesuada. Nam maximus ultricies ipsum a imperdiet. Vestibulum vel erat ut risus hendrerit cursus non quis purus. Praesent massa orci, semper in porta sed, luctus quis quam.</p>
-
-
-
- 
- <!-- HTML Tables -->
-    <table>
-         <!-- Header Row -->
-        <tr> 
-            <th>Name</th>
-            <th>Age</th>
-            <th>School</th>
-        </tr>
+<html lang="en">
+    <head>
+        <script src="scripts/scripts.js" defer></script> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <a href="class-projects.html">Class Projects</a>
+           <a href="recipe-project/recipe-home.html">Recipe Projects</a>  
+        </header> 
         
-        
-        <tr>
-            <td>Jane</td>
-            <td>23</td>
-            <td>USM</td>
-        </tr>
-        
-        </tr>
-    </table>
-<br>
+        <main>
+            <div class="box1"><p></p></div>
+            <div class="box2"></div>
+            <div class="box3"></div> 
+            
+            <form action="POST">
+                <p>Radio Buttons</p>
+                <input type="Radio" id="email" name="contact" value="email">
+                <!-- type for="email" Signup.html -->
+                <p>How do you get to school</p>
+                <select name="How do you get to school?" id="How do you get to school?">
+                    <option value="Walk">Walk</option>
+                    <option value="Bus">Bus</option>
+                    <option value="Car">Car</option> 
+                </select>
+
+                <!-- checkboxes -->
+                <p>Select your skills</p>
+                <input type="checkbox" name="skills" id="html" value="html" checkbox>
+
+                <p input type="checkbox"  What are your favorite hobbies p>
+                <option value="Gaming">Gaming</option>
+                <option value="Sports">Sports</option>
+                <option value="Music">Music</option>  
+                <option value="Coding">Coding</option>
+
+            
+
+                <!-- Text Area -->
+                <div>
+                    <label for="Message">Your Message:</label>
+                    <textarea name="message" value="message" id="message" rows="10" cols="20"></textarea>
+                </div>
+
+                <!-- Dropdown Menus -->
+                <lable for="car">Choose a car</lable>
+                <select name="car" id="car"></select>
+                <options value="volvo">Volvo</options>
+            </form>
+
+            <!-- HTML Tables -->
+            <table>
+                <!-- Header Row -->
+                <tr> 
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>School</th>
+                </tr>
+                
+                
+                <tr>
+                    <td>Jane</td>
+                    <td>23</td>
+                    <td>USM</td>
+                </tr>
+                
+            </table>
+
+            <br>
+
+            <form action="" method=""POST>
+                <label for="fullName">Full Name</label>
+                <input type="text", id="fullName" name="fullName" placeholder="Your Name">
 
 
-
-
-    <form action="" method=""POST>
-        <label for="fullName">Full Name</label>
-        <input type="text", id="fullName" name="fullName" placeholder="Your Name">
-
-
-        < !-- Email Box --> for="userEmail">Email Address</label>
-        <input type="email" name="userEmail" id="userEmail" placeholder="Email" required>
-        
-        <button type="submit">Send Message</button>
-    </form>
-
-
-</body>
+                <!-- Email Box -->
+                <label for="userEmail">Email Address</label>
+                <input type="email" name="userEmail" id="userEmail" placeholder="Email" required>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </main>
+    </body>
 </html>

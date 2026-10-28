@@ -1,12 +1,18 @@
-.header-link {
+/* .header-link {
     background-color: #ff0022;
+} */
+
+a { 
+    text-decoration: none;
+}
+
+/* Main Styling */
+main {
+    border: 2px solid black;
 }
 
 p {
-    background-color:blueviolet;
+    background-color:rgb(185, 141, 226);
     color:rgb(0, 0, 0);
 }
 
-a{ 
-    text-decoration: none;
-}
