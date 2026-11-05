@@ -6,13 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="header.css">
     </head>
     <body>
         <header>
-            <img src="images/bulldog.jpeg" alt="bulldog" width="70">
+            <img src="images/bulldog.jpeg" alt="bulldog" width="70" class="header-image">
             <p>Home</p>
-            <a href="class-projects.html">Class Projects</a>
-           <a href="recipe-project/recipe-home.html">Recipe Projects</a>  
+            <a href="class-projects.html"class="header-link">Class Projects</a>
+           <a href="recipe-project/recipe-home.html"class="header-link">Recipe Projects</a>  
         </header> 
         
         <main>
@@ -34,15 +35,13 @@
                 <!-- checkboxes -->
                 <p>Select your skills</p>
                 <input type="checkbox" name="skills" id="html" value="html" checkbox>
-
-                <p input type="checkbox"  What are your favorite hobbies p>
-                <option value="Gaming">Gaming</option>
-                <option value="Sports">Sports</option>
-                <option value="Music">Music</option>  
-                <option value="Coding">Coding</option>
-
-            
-
+                
+                <select name="What are your favorite hobbies?" id="What are your favorite hobbies?">
+                    <option value="Gaming">Gaming</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Music">Music</option>  
+                    <option value="Coding">Coding</option>
+                </select>
                 <!-- Text Area -->
                 <div>
                     <label for="Message">Your Message:</label>

@@ -1,0 +1,18 @@
+.header-image{
+    border-radius: 50px;
+}
+
+.header-link{
+    background-color: aquamarine;
+    color: black;
+    padding: 8px;
+    border-radius: 50px;
+}
+header{
+    background-color: rgb(76, 168, 250);
+    padding: 13px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 5px;
+}
+
