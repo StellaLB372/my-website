@@ -28,3 +28,11 @@ main {
 /* 50-50 */
 /* 100 */
 /* In box 1 I used padding and in box 2 used margin */
+
+.home-section {
+  height: 90vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column-reverse
+  justify-content center;
+}
