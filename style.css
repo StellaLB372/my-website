@@ -36,3 +36,12 @@ main {
   flex-direction: column-reverse
   justify-content center;
 }
+
+.main_box_1{
+    display: flex;
+    justify-content: space-between;
+}
+.main_box_2{
+    display: flex;
+    justify-content: space-evenly;
+}
