@@ -1,3 +1,7 @@
+*
+
+
+
 /* .header-link {
     background-color: #ff0022;
 } */
@@ -44,4 +48,54 @@ main {
 .main_box_2{
     display: flex;
     justify-content: space-evenly;
+}
+
+.main_box_3{ 
+    display: flex; 
+    justify-content: center;
+}
+
+.inner_box_1{
+    display: flex;
+    
+}
+
+.box_1{
+    background-color: purple;
+}
+
+.box_2{
+    background-color: rgb(255, 0, 43);
+}
+
+.box_3{
+    background-color: aqua;
+}
+
+.box_4{
+    background-color: teal;
+}
+
+.box_5{
+    background-color: coral;
+}
+
+.box_6{
+    background-color: rgb(196, 74, 95);
+}
+
+.box_7{
+    background-color: rgb(252, 138, 157);
+}
+
+.box_8{
+    background-color: magenta;
+}
+
+.box_9{
+    background-color: indigo;
+}
+
+.box_10{
+    background-color: tan;
 }
